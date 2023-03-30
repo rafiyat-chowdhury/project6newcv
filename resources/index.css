@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 90px;
+    color: #BD4291;
+    line-height: 2.4;
+}
+
+h2 {
+    font-size: 40px;
+    color: #BD4291;
+    font-weight: normal;
+}
+
+h3, a {
+    color: #FFC54D;
+}
+
+.top-container {
+    background-color: #53BF9D;
+    margin: 0 0;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+.top-cloud {
+    position: absolute;
+    right: 350px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+
+}
+
+.profile-picture {
+    border-radius: 40%;
+    height: 250px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.skill-image {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.hobby-image {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    line-height: 2;
+    text-align: left;
+    width: 50%;
+    margin: 100px auto;
+}
+
+.skill-description {
+    clear: left;
+}
+
+.hobby-description {
+    clear: right;
+}
+
+
+.bottom-container {
+    background-color: #53BF9D;
+    margin: 0 0;
+    position: relative;
+    padding: 75px 0 50px;
+}
+
+.copyright {
+    color: white;
+    font-size: 14px;
+    margin: 40px auto 0;
+}
+
+hr {
+    border-top: 10px dotted #53BF9D;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 7%;
+    margin: 100px auto;
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 10px 10px;
+    background-color: #BD4291;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    text-decoration: none;
+    background-color: #D61355;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #eaf6f6
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.intro {
+    width: 30%;
+    margin: 0 auto;
+}
+
+a {
+    margin-right: 30px;
+}
